@@ -7,6 +7,8 @@
 
 程序运行后CPU0将唤醒CPU1,并从DS1302中的RAM读取已设置的闹钟和时间  
 按下按键后CPU0将写入OCMBuffer中的数据,通知CPU1播放音乐
+硬件设计如下:
+![Design](./images/Design.png)
 
 ## 2. 项目结构为
 
